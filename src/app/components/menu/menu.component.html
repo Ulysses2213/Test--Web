@@ -1,6 +1,10 @@
-<ul>
-  <li><a href="home">Home</a></li>
-  <li><a href="#login">Login</a></li>
-  <li><a href="#contacto">Contacto</a></li>
-  <li><a href="#conoce">Conoce a tu mascota</a></li>
-</ul>
+<nav>
+  <div class="logo">
+    <a [routerLink] = "['/home']">Animal World</a>
+  </div>
+  <ul>
+    <li><a [routerLink] = "['/']">Iniciar Sesion</a></li>
+    <li><a [routerLink] = "['/']">Contacto</a></li>
+    <li><a [routerLink] = "['/']">Conoce a tu mascota</a></li>
+  </ul>
+</nav>
