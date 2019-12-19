@@ -16,7 +16,7 @@
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  background-color: rgba(13, 13, 13, 0.5);
+  background-color: rgba(13, 13, 13, 0.7);
 }
 
 p{
@@ -38,7 +38,7 @@ h1{
 
 h2{
   color: #f2f2f2;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-family: 'Zilla Slab', serif;
 }
 
@@ -54,7 +54,7 @@ h2{
   color: #f2f2f2;
   text-decoration: none;
   font-family: 'Zilla Slab', serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding: 10px;
   border-radius: 15px;
 }
@@ -62,4 +62,28 @@ h2{
 .buttons a:hover{
   background-color: #f2f2f2;
   color: #0d0d0d;
+}
+
+@media (max-width: 800px) {
+  .bg{
+    background-position: top;
+  }
+
+  p{
+    font-size: 8em;
+  }
+
+  h1, h2{
+    display: none;
+  }
+
+  .buttons{
+    width: 50%;
+  }
+
+  .buttons a:focus{
+    background-color: #f2f2f2;
+    color: #0d0d0d;
+  }
+
 }

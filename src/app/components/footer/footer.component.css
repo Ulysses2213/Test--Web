@@ -1,0 +1,41 @@
+footer{
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  background-color: #010000;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  height: 30vh;
+  margin-left: 20px;
+}
+
+.footer label{
+  margin-top: 40px;
+  color: #f2f2f2;
+  font-size: 1.3em;
+  font-family: 'Zilla Slab', serif;
+}
+
+.menu-social{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  border-bottom: .3px solid #f2f2f2;
+  padding-bottom: 10px;
+}
+
+.logo label{
+  font-family: 'Lobster', cursive;
+  font-size: 2.5em;
+}
+
+
+i {
+  color: #f2f2f2;
+  font-size: 1.8em;
+  margin-left: 25px;
+}
